@@ -12,7 +12,7 @@ module("setup test", {
 test("module with setup", function() {
 	expect(2);
 	ok(true);
-})
+});
 
 module("setup/teardown test", {
 	setup: function() {
@@ -28,7 +28,7 @@ module("setup/teardown test", {
 test("module with setup/teardown", function() {
 	expect(3);
 	ok(true);
-})
+});
 
 module("setup/teardown test 2");
 
